@@ -10,6 +10,12 @@ H:
 
 En el archivo .h se encuentran las definiciones de las funciones que se van a usar en los archivos .c. Aqui basicamente se esta creando una libreria propia.
 
+PEARL:
+
+En el archivo .pl se encuentra un script que sirve para ejecutar todos los casos de prueba que se quieren realizar y guardar los reultados en archivos .dat
+
 CSV:
 
 Existe cuatro archivos .csv donde podras encontrar los resultados obtenidos de la ejecucion del programa usando diferentes cantidades de hilos y diferentes dimensiones de la matriz. Si quieres realizar comparaciones con otros sistemas de computo los sistemas usados fueron: Linux, Ubuntu con 8 cores y Windows 10 con 4 cores.
+
+Para hacer tus propias puedes realizar cambios al script pearl para cambiar la cantidad de hilos o la dimension de la matriz, tambien puedes implementar nuevos algortimos de multiplicacion de matrices y añadirlos a la libreria para usarlos y ver sus resultados.
